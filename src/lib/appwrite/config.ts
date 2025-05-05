@@ -1,5 +1,4 @@
 import { Client, Databases, Account, Storage, Avatars } from 'appwrite';
-import { data } from 'react-router-dom';
 
 export const appwriteConfig = {
     projectId: import.meta.env.VITE_APPWRITE_PROJECT_ID,
